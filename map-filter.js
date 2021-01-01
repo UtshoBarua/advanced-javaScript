@@ -19,6 +19,10 @@ const output = []
 // const result = square(5);
 // console.log(result)
 
-const square = x => x*x
-const result = square(5);
-console.log(result)
+// const square = x => x*x
+// const result = square(5);
+// console.log(result)
+
+// const biggerNumber = nums.filter( x => x>5 )
+const biggerNumber = nums.find( x => x>5 )
+console.log(biggerNumber)
