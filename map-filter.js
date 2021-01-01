@@ -8,9 +8,17 @@ const output = []
 // }
 // console.log(output)
 
-const result= nums.map(function (element, index, array){
-    return index*2
+// const result= nums.map(function (element, index, array){
+//     return index*2
 
    
-})
+// })
+// console.log(result)
+
+// const square = element => element*element;
+// const result = square(5);
+// console.log(result)
+
+const square = x => x*x
+const result = square(5);
 console.log(result)
